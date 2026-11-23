@@ -1,0 +1,30 @@
+Package: bullseyeR
+Title: Site-Level Differential RNA Editing Analysis
+Version: 0.1.0
+Authors@R:
+    person(
+        given = "Mathieu",
+        family = "Flamand",
+        email = "mathieu.flamand@crchudequebec.ulaval.ca",
+        role = c("aut", "cre")
+    )
+Description: Performs site-level differential editing analysis using
+    binomial, quasibinomial, and beta-binomial models. Supports
+    fixed-effect multifactor designs, numeric covariates, interactions,
+    and user-defined linear contrasts. Provides coverage filtering,
+    multiple-testing correction, cross-platform parallel computation,
+    and model-fitting diagnostics.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    methods,
+    parallel,
+    stats,
+    utils
+Suggests:
+    aod,
+    roxygen2,
+    testthat
+Roxygen: list(markdown = TRUE)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1
