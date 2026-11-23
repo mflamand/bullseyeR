@@ -9,13 +9,13 @@ Install the development version from GitHub:
 
 ```r
 install.packages("remotes")
-remotes::install_github("YOUR_USERNAME/bullseye")
+remotes::install_github("mflamand/bullseyeR")
 ```
 
 Load the package:
 
 ```r
-library(bullseye)
+library(bullseyeR)
 ```
 
 For beta-binomial models, also install the optional dependency:
